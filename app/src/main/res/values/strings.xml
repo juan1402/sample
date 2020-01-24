@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="submit_form">Submit Form</string>
+    <string name="example_hint">Example Hint</string>
+
+    <array name="required_validation">
+        <item>com.hurtado.forms.validations.RequiredValidation</item>
+    </array>
+
+    <array name="enable_validation">
+        <item>com.hurtado.forms.validations.AcceptanceValidation</item>
+    </array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hurtado.forms.widget.InputCompatField
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/til_example"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="18dp"
+    android:layout_marginEnd="16dp"
+    app:validations="@array/required_validation">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/example"
+        android:hint="@string/example_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+
+</com.hurtado.forms.widget.InputCompatField>
